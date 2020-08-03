@@ -1,0 +1,145 @@
+html, body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/*---MENU---*/
+.menu{
+    background-color: black;
+    color:whitesmoke;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1px 50px;
+
+}
+
+
+
+
+.menu-nav{
+    display: flex;
+    list-style: none;
+    margin:0;
+}
+.menu img{
+    width: 70px;
+    margin: 0;
+    padding-left: 80px;
+}
+.menu-nav a{
+    text-decoration: none;
+    padding: 5px 15px ;
+    
+    font-size:18px;
+    color: whitesmoke;
+    margin-left: 100px;
+}
+
+.menu-nav a:hover{
+    border-bottom: ridge green;
+    color: rgb(69, 189, 75);
+}
+/*---FIM MENU---*/
+
+
+/*---CAPA---*/
+.capa{
+    background-image: url(../img/fundo.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    color:whitesmoke;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.capa a{
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: center;
+
+    font-size: 40px;
+   background-color: rgba(0, 0, 0, 0.541);
+    
+
+}
+
+.capa a:hover{
+    background-color:rgba(238, 227, 227, 0.356);
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    
+}
+
+/*---ods----*/
+
+.objetivo{
+    text-align: center;
+    align-items: center;
+}
+.objetivo h1{
+    font-size: 40px;
+    margin-top: 60px;
+}
+.objetivo p{
+    font-size: 20px;
+}
+
+.ods{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+    background-color: rgba(194, 245, 194, 0.87);
+    padding:70px;
+}
+
+.text-1{
+    padding: 50px 50px 0px 50px;
+    text-align: center;
+    flex:50%;
+    align-items: center;
+
+
+    
+}
+
+.text-1 .video{
+    flex: 50%;
+}
+
+.obj-1{
+    padding: 50px;
+    text-align: center;
+}
+.obj-1 p{
+    font-size: 20px;
+}
+.obj-1 h1{
+    font-size: 30px;
+}
+
+.fim{
+    background-color:rgba(194, 245, 194, 0.87) ;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
+
+
+    
+
